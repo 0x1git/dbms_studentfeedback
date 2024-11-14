@@ -29,14 +29,14 @@
                     <th>Branch</th>
                     <th>Section</th>
                     <th>Subject</th>
-                    <th>Ques1</th>
-                    <th>Ques-2i</th>
-                    <th>Ques-2ii</th>
-                    <th>Ques-2iii</th>
-                    <th>Ques-2iv</th>
-                    <th>Ques-2v</th>
-                    <th>Ques3</th>
-                    <th>Ques4</th>
+                    <th>Ques-1</th>
+                    <th>Ques-2</th>
+                    <th>Ques-3</th>
+                    <th>Ques-4</th>
+                    <th>Ques-5</th>
+                    <th>Ques-6</th>
+                    <th>Ques-7</th>
+                    <th>Ques-8</th>
                     <th>Remarks</th>
                 </tr>";
 
@@ -49,13 +49,13 @@
           echo "<td>" . $row['section'] . "</td>";
           echo "<td>" . $row['subject'] . "</td>";
           echo "<td>" . $row['ques1'] . "</td>";
-          echo "<td>" . $row['ques2i'] . "</td>";
-          echo "<td>" . $row['ques2ii'] . "</td>";
-          echo "<td>" . $row['ques2iii'] . "</td>";
-          echo "<td>" . $row['ques2iv'] . "</td>";
-          echo "<td>" . $row['ques2v'] . "</td>";
+          echo "<td>" . $row['ques2'] . "</td>";
           echo "<td>" . $row['ques3'] . "</td>";
           echo "<td>" . $row['ques4'] . "</td>";
+          echo "<td>" . $row['ques5'] . "</td>";
+          echo "<td>" . $row['ques6'] . "</td>";
+          echo "<td>" . $row['ques7'] . "</td>";
+          echo "<td>" . $row['ques8'] . "</td>";
           echo "<td>" . $row['remarks'] . "</td>";
           echo "</tr>";
         }

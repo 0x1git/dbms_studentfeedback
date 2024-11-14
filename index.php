@@ -282,8 +282,6 @@
       </form>
       <br />
     </div>
-    <div class="copyright-text">
-      <p>© Copyright Anushka Chauhan 2021</p>
-    </div>
+  
   </body>
 </html>
